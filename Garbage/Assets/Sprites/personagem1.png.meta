@@ -1,9 +1,40 @@
 fileFormatVersion: 2
 guid: 2496000da8a434a44a6f30aca4dca07a
-timeCreated: 1497277901
+timeCreated: 1497363326
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: personagem1_0
+    21300002: personagem1_1
+    21300004: personagem1_2
+    21300006: personagem1_3
+    21300008: personagem1_4
+    21300010: personagem1_5
+    21300012: personagem1_6
+    21300014: personagem1_7
+    21300016: personagem1_8
+    21300018: personagem1_9
+    21300020: personagem1_10
+    21300022: personagem1_11
+    21300024: personagem1_12
+    21300026: personagem1_13
+    21300028: personagem1_14
+    21300030: personagem1_15
+    21300032: personagem1_16
+    21300034: personagem1_17
+    21300036: personagem1_18
+    21300038: personagem1_19
+    21300040: personagem1_20
+    21300042: personagem1_21
+    21300044: personagem1_22
+    21300046: personagem1_23
+    21300048: personagem1_24
+    21300050: personagem1_25
+    21300052: personagem1_26
+    21300054: personagem1_27
+    21300056: personagem1_28
+    21300058: personagem1_29
+    21300060: personagem1_30
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +65,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +89,225 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: personagem1_1
+      rect:
+        serializedVersion: 2
+        x: 98
+        y: 209
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_2
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 208
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_4
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 209
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_5
+      rect:
+        serializedVersion: 2
+        x: 196
+        y: 208
+        width: 26
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_7
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 157
+        width: 29
+        height: 49
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_9
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 160
+        width: 26
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_11
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 161
+        width: 29
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_13
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 160
+        width: 25
+        height: 43
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_18
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 112
+        width: 23
+        height: 46
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 111
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_21
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 112
+        width: 25
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_22
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 109
+        width: 31
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_27
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 63
+        width: 30
+        height: 47
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_28
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 30
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_29
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 62
+        width: 27
+        height: 48
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: personagem1_30
+      rect:
+        serializedVersion: 2
+        x: 194
+        y: 63
+        width: 27
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
