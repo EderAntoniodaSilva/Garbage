@@ -18,9 +18,14 @@ public class PlayerController : MonoBehaviour {
 		
 		float moveHorizontal = Input.GetAxis ("Horizontal");
 		float moveVertical = Input.GetAxis ("Vertical");
+		float jump = 0;
 
-		Vector2 movement = new Vector2 (moveHorizontal, moveVertical);
+		if (Input.GetKey(KeyCode.Space))
+			jump = speed - rb2d.position.y;
+		
+		Vector3 movement = new Vector3 (moveHorizontal, jump, moveVertical);
 
 		rb2d.AddForce (movement * speed);
+		jump = 0;
 	}
 }
