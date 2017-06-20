@@ -1,9 +1,13 @@
 fileFormatVersion: 2
 guid: 4e1ab6b1fedd14e4a9ced0e5aef1733f
-timeCreated: 1497277913
+timeCreated: 1497908794
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: lixo__0
+    21300002: lixo__1
+    21300004: lixo__2
+    21300006: lixo__3
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -58,9 +62,77 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lixo__0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 231.5
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lixo__1
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 0
+        width: 232
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lixo__2
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 232
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lixo__3
+      rect:
+        serializedVersion: 2
+        x: 693
+        y: 0
+        width: 231.5
+        height: 381
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 

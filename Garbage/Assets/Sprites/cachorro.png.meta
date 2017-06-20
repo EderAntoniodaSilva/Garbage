@@ -1,9 +1,25 @@
 fileFormatVersion: 2
 guid: 10c8ee7013f66104a966cfdb08f002e6
-timeCreated: 1497277933
+timeCreated: 1497911094
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: cachorro_0
+    21300002: cachorro_1
+    21300004: cachorro_2
+    21300006: cachorro_3
+    21300008: cachorro_4
+    21300010: cachorro_5
+    21300012: cachorro_6
+    21300014: cachorro_7
+    21300016: cachorro_8
+    21300018: cachorro_9
+    21300020: cachorro_10
+    21300022: cachorro_11
+    21300024: cachorro_12
+    21300026: cachorro_13
+    21300028: cachorro_14
+    21300030: cachorro_15
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +50,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +74,233 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: cachorro_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 153
+        height: 153
+      alignment: 7
+      pivot: {x: 0.5, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_1
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 114.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_2
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 114.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_3
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 114.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 76.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 7}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_5
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 76.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 7}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_6
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 76.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 7}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_7
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 76.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 7}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 38.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 7}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_9
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 38.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 6}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_10
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 39
+        width: 38
+        height: 32
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_11
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 38.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 6}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_13
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 0.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_14
+      rect:
+        serializedVersion: 2
+        x: 76
+        y: 0.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: cachorro_15
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0.75
+        width: 38.25
+        height: 38.25
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
