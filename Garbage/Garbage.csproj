@@ -75,21 +75,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\EX-Roguelike\Completed\Scripts\BoardManager.cs" />
-    <Compile Include="Assets\EX-Roguelike\Completed\Scripts\Enemy.cs" />
-    <Compile Include="Assets\EX-Roguelike\Completed\Scripts\GameManager.cs" />
-    <Compile Include="Assets\EX-Roguelike\Completed\Scripts\Loader.cs" />
-    <Compile Include="Assets\EX-Roguelike\Completed\Scripts\MovingObject.cs" />
-    <Compile Include="Assets\EX-Roguelike\Completed\Scripts\Player.cs" />
-    <Compile Include="Assets\EX-Roguelike\Completed\Scripts\SoundManager.cs" />
-    <Compile Include="Assets\EX-Roguelike\Completed\Scripts\Wall.cs" />
-    <Compile Include="Assets\EX-Roguelike\TutorialInfo\Scripts\TutorialInfo.cs" />
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Assets\EX-Roguelike\Fonts\OFL.txt" />
-    <None Include="Assets\EX-Roguelike\TutorialInfo\Fonts\LICENSE.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />

@@ -13,9 +13,12 @@ public class PlayerController : MonoBehaviour {
 	private int count;
 	public int vidas;
 	public Text textoVidas;
+    public AudioClip somCachorro;
+    public AudioClip somLata;
+    public AudioClip somFundo;
 
-	// Use this for initialization
-	void Start () {
+    // Use this for initialization
+    void Start () {
 		
 		rb2d = GetComponent<Rigidbody2D> ();
 		count = 0;
@@ -38,7 +41,7 @@ public class PlayerController : MonoBehaviour {
 		float moveVertical = Input.GetAxis ("Vertical");
 		float jump = 0;
 
-		if (Input.GetKey(KeyCode.Space))
+		if (Input.GetKey(KeyCode.Space) && rb2d.position.y < -1.2)
 			jump = speed - rb2d.position.y;
 		
 		Vector3 movement = new Vector3 (moveHorizontal, jump, moveVertical);
@@ -48,6 +51,8 @@ public class PlayerController : MonoBehaviour {
 			Flip ();
 		else if (moveHorizontal < 0 && !facingRight)
 			Flip ();
+
+        rb2d.rotation = 0;
 	}
 
 	void OnTriggerEnter2D(Collider2D other) {
@@ -56,12 +61,38 @@ public class PlayerController : MonoBehaviour {
 			count = count + 1;
 			MarcarPonto ();
 		}
-	}
+        if (other.gameObject.CompareTag("Inimigo"))
+        {
+            PerderVida();
+            AudioSource audioSource = GetComponent<AudioSource>();
+            audioSource.clip = somCachorro;
+            audioSource.Play();
+        }
+        if (other.gameObject.CompareTag("Lata"))
+        {
+            PerderVida();
+            AudioSource audioSource = GetComponent<AudioSource>();
+            audioSource.clip = somLata;
+            audioSource.Play();
+        }
+    }
 
 	void MarcarPonto(){
 		countText.text = "Papeis Coletados: " + count.ToString ();
 		if (count >= 10) {
 			finalText.text = "Você Venceu!";
-		}
+            rb2d.GetComponent<PlayerController>().enabled = false;
+        }
 	}
+    void PerderVida(){
+        vidas = vidas - 1;
+        textoVidas.text = "Vidas: " + vidas.ToString();
+        rb2d.MovePosition(new Vector2(-5,-1));
+        if (vidas == 0)
+        {
+            finalText.text = "Você Perdeu!";
+            rb2d.GetComponent<PlayerController>().enabled = false;
+        }
+
+    }
 }

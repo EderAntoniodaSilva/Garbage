@@ -6,9 +6,9 @@ using Random = UnityEngine.Random;
 public class CameraController : MonoBehaviour {
 
 	public GameObject player;
-	public GameObject itemPapel;
-	public GameObject itemVidro;
-	private List<Vector3> gridPositions = new List<Vector3> ();
+	//public GameObject itemPapel;
+	//public GameObject itemVidro;
+	//private List<Vector3> gridPositions = new List<Vector3> ();
 	private Vector3 offset;
 
 	// Use this for initialization
